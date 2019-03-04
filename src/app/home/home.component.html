@@ -1,0 +1,232 @@
+<div class="no-padding container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-lg-4 offset-lg-4 text-center">
+      <img class="img-responsive" src="/assets/images/logo.png" alt="" />
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="col-sm-12">
+      <app-navbar></app-navbar>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="container">
+      <carousel>
+        <slide>
+          <img
+            class="slider-image"
+            src="assets/images/slider-image-1.png"
+            alt="first slide"
+          />
+        </slide>
+        <slide>
+          <img
+            class="slider-image"
+            src="assets/images/slider-image-2.png"
+            alt="second slide"
+          />
+        </slide>
+      </carousel>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="col-sm-12">
+      <div class="jumbotron bg-secondary">
+      <div class="container">
+        <h1 class="font-weight-light text-center text-primary text-uppercase">
+          IAB Thank U
+        </h1>
+        <p class="my-3 about-iab text-center">
+          We strongly believe that everyone deserves a future, regardless of
+          their physical abilities. This is why we at IAB strive to create
+          sustainable livelihoods for the visually impaired, to ensure that
+          these youth have a bright life ahead. With this goal in mind, we
+          have undertaken an initiative called Thank U, which helps turn these
+          individuals into entrepreneurs. These aspiring business owners will
+          be in charge of selling healthy yet delicious snacks like cakes,
+          cookies, and savoury items directly to the customer.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="container">
+      <div class="division">
+        <div class="division-line"></div>
+        <div class="col-sm-10 offset-sm-1 col-lg-4 offset-lg-4">
+          <div class="division-box text-uppercase">
+            Shop
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="col-sm-12">
+      <div class="container">
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row my-4">
+      <div
+        *ngFor="let product of products; let i = index"
+        class="col-sm-12 col-lg-3"
+      >
+        <app-product [darkBg]="i % 2 == 0" [product]="product"></app-product>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-sm-10 col-sm-1 col-md-4 offset-md-4">
+        <button class="form-control btn btn-primary">Go To Cart</button>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="row my-5">
+    <div class="container">
+      <div class="jumbotron bg-secondary">
+        <div class="container">
+          <h1 class="font-weight-light text-center text-primary text-uppercase">
+            You Can Also Support Us By
+          </h1>
+          <div class="row my-5">
+            <div class="text-center col-sm-12 col-lg-4">
+              <img
+                class="img-responsive"
+                src="/assets/images/outlet.png"
+                alt="outlet"
+              />
+              <h5 class="my-3 text-center">
+                Outlets in corporates &amp; institutions
+              </h5>
+            </div>
+            <div class="text-center col-sm-12 col-lg-4">
+              <img
+                class="img-responsive"
+                src="/assets/images/snacks.png"
+                alt="snacks"
+              />
+              <h5 class="my-3 text-center">
+                Snacks orders forevents &amp; festivals
+              </h5>
+            </div>
+            <div class="text-center col-sm-12 col-lg-4">
+              <img
+                class="img-responsive"
+                src="/assets/images/purchasing.png"
+                alt="purchase"
+              />
+              <h5 class="my-3 text-center">
+                Purchasing @
+                <a class="text-primary" href="http://thankUfoods.com"
+                  >thankUfoods.com</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="container-fluid">
+      <div class="jumbotron bg-secondary">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-sm-12 col-lg-4">
+              <img src="/assets/images/logo-2.png" alt="logo">
+              <p class="my-5">
+                15/5 Raj Nagar, <br>
+                Sammattipuram, <br>
+                Bye-pass Road, <br>
+                Kalavasal, <br>
+                Madurai - 625010
+              </p>
+              <hr>
+              <p>
+                Follow Us: &nbsp;
+                <a class="btn-social" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="btn-social" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="btn-social" href="#"><i class="fa fa-google-plus"></i></a>
+              </p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <h5 class="font-weight-light text-primary text-uppercase">Instagram Follow</h5>
+              <div class="row my-3">
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="insta-image"></div>
+                </div>
+              </div>
+              <a href="#">View More Photos</a>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <h5 class="font-weight-light text-primary text-uppercase">Quick Contact US</h5>     
+              <form class="my-3">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <input class="form-control" type="text" placeholder="Name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <input class="form-control" type="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <textarea rows="4" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="text-center text-uppercase">&copy; 2019 IAB Thank U Designed by S Designs</p>
+</div>

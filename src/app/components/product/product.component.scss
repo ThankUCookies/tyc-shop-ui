@@ -1,0 +1,6 @@
+@import '../../../variables';
+
+.card {
+  border: 1px solid map-get($theme-colors, secondary);
+  margin-top: 10px;
+}

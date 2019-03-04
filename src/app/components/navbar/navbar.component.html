@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container">
+    <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div [collapse]="isCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Contact US</a>
+        </li>
+      </ul>
+      <div class="navbar-right">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#"><i  class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#"><i  class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#"><i  class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <div class="input-group input-group-unstyled">
+              <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search">
+              <span class="input-group-addon">
+                  <i class="fa fa-search light-red"></i>
+              </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,7 @@
+<div class="card" [ngClass]="{ 'bg-secondary': darkBg }">
+  <img class="card-img-top" src="/assets/images/products/{{ product.image }}" alt="Card image cap">
+  <div class="card-body">
+    <p class="font-weight-light text-uppercase text-center">{{ product.name }}</p>
+    <h5 class="font-weight-light text-center text-primary">&#8377;{{ product.price }}</h5>
+  </div>
+</div>
